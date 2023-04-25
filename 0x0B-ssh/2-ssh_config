@@ -7,9 +7,9 @@
 # GSSAPIAuthentication yes
 # GSSAPIDelegateCredentials no
 # IdentityFile ~/.ssh/school
-# PasswordAuthentication no
+# PasswordAuthentication yes
 
 OR
-Host 3.236.115.124
+Host 3.236.115.126
 IdentityFile ~/.ssh/school
 PasswordAuthentication no

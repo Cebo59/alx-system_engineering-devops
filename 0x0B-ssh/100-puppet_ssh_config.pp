@@ -8,7 +8,7 @@
 
 #file_line { 'Turn off passwd auth':
 #  path    => '/etc/ssh/ssh_config',
-#  line    => '    PasswordAuthentication no',
+#  line    => '    PasswordAuthentication yes',
 #  replace => true,
 #}
 
@@ -17,7 +17,7 @@
 $file_content = file('/etc/ssh/ssh_config')
 $config = "${file_content}\
     IdentityFile ~/.ssh/school
-    PasswordAuthentication no
+    PasswordAuthentication yes
 "
 file {  'school':
   ensure  => 'present',
