@@ -1,1 +1,1 @@
-1-haproxy_ssl_termination
+100-redirect_http_to_https
