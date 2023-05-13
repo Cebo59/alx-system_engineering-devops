@@ -1,0 +1,29 @@
+Introduction
+If you've ever wondered what happens when you type https://www.google.com in your browser and press enter, this post will help explain how the internet works. The request for the website is sent to the DNS server which checks if it has an address for this hostname. If it does not have one, then it looks up who owns that domain name through WhoisGuard or other similar services and sends back info about that person or company along with their public IP address (if available). The TCP/IP stack determines which port number and protocol it should use before making outbound connections from your computer's network interface card (NIC) onto whatever router/hosting provider machine happened to have that information stored on its hard drive at the time they connected with another system over an ethernet cable or wireless network connection...
+
+The request for the website is sent to the DNS server.
+When you type https://www.google.com in your browser and press enter, the request for the website is sent to the DNS server. The DNS server is a hierarchical system of servers that contain data about IP addresses, hostnames, and other information related to computers on the Internet.
+It's important to remember that there are many different types of DNS servers; some are faster than others and some can handle more requests at once than others can handle. However, all types of DNS servers have one thing in common: They're responsible for translating between humans' requests (in this case "https://www.") and computer languages (in this case "http://www.")
+
+The DNS server knows what IP address to send the request to and the next hop router will make outbound connections.
+
+DNS is a computer network service that converts human-readable addresses to the numerical IP addresses used in Internet Protocol (IP) networks. The Domain Name System (DNS) is the set of rules that computers use to convert domain names or hostnames into IP addresses, which are then used to route traffic across the Internet.
+
+The DNS server knows what IP address to send the request to and the next hop router will make outbound connections.
+
+DNS is a critical component of the Internet. Without it, users could not browse websites or send email to each other. DNS is also used by network administrators to manage their networks and ensure that they are running smoothly.
+
+The TCP/IP stack determines which port number and protocol it should use.
+
+An example would be if you type in www.google.com into your browser and press enter, it will send a request to the server at google.com for information about how to display this website on your screen. This is called an HTTP GET request because it requests something from another computer on the internet (in this case, a web server). After receiving these details from Google's servers, they would know what kind of image or video file should be displayed for someone who visits http://www-servers.(domain name)
+
+The firewall (if any) checks to see if data can be sent through the firewall.
+
+The firewall (if any) checks to see if data can be sent through the firewall. This may include checking for a valid IP address, port number and protocol type.
+The network administrator can configure a company's firewall so that it allows or denies certain types of data based on whether it's being sent from one internal computer and received by another internal computer or vice versa.
+There are many steps involved in getting a website up and running
+The first step in getting a website up and running is to make sure that your domain name is properly registered with the Internet Assigned Numbers Authority (IANA). Once you've done this, it's time to start making DNS requests. This is where your browser will send a request for information about your site to one of several DNS servers on the internet.
+You'll also want to make sure that all of these requests are routed through an authority server such as Cloudflare or Google's own Route 53, which ensure that everything is working correctly. If there are any issues with these steps—like if a particular IP address isn't hosted on either one—then visitors may not be able to reach what they're looking for!
+
+Conclusion
+I hope this article has given you a better understanding of how websites work. I’ll leave you with one final thought: don’t make assumptions about what is happening behind the scenes when you ask your browser to connect to a website!
