@@ -1,0 +1,30 @@
+User's Browser                      DNS Server                       Google's Web Server
+     |                                      |                                       |
+     |------------DNS Lookup---------------->|                                       |
+     |                                      |                                       |
+     |                                      |<-----DNS Response--------------------|
+     |                                      |                                       |
+     |-------------Establish Connection------>|                                       |
+     |                                      |                                       |
+     |                                      |<--------Connection Established-------|
+     |                                      |                                       |
+     |--------Perform SSL/TLS Handshake----->|                                       |
+     |                                      |                                       |
+     |                                      |<-----SSL/TLS Handshake Complete------|
+     |                                      |                                       |
+     |-------------Send HTTP Request-------->|                                       |
+     |                                      |                                       |
+     |                                      |--------Process HTTP Request--------->|
+     |                                      |                                       |
+     |                                      |<--------Generate HTTP Response-------|
+     |                                      |                                       |
+     |                                      |-------------Send HTTP Response------>|
+     |                                      |                                       |
+     |                                      |                                       |
+     |                                      |<--------Response Received------------|
+     |                                      |                                       |
+     |                                      |--------Render Page------------------>|
+     |                                      |                                       |
+     |                                      |                                       |
+     |                                      |<---------Page Displayed--------------|
+
